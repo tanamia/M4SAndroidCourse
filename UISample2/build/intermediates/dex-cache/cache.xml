@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.0-alpha3\constraint-layout-solver-1.0.0-alpha3.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.1"
+        sha1="977d57354ef7ef4faa604b802d4907728e0db889">
+        <dex dex="C:\Users\Aminata Mbengue\AndroidStudioProjects\UISample2\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.0-alpha3_ae741bc7926a1ef1b025a4318c8b13977d8ccf0a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Aminata Mbengue\AndroidStudioProjects\UISample2\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.1"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="C:\Users\Aminata Mbengue\AndroidStudioProjects\UISample2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.1.1_4e4febb6daea8362e4406a2a2efdf11c47ea6fb3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Aminata Mbengue\AndroidStudioProjects\UISample2\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.1"
+        sha1="c0e14e4f0bf738929288296af1239ec01d4c2a72">
+        <dex dex="C:\Users\Aminata Mbengue\AndroidStudioProjects\UISample2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_9a840b205b4ea3758be195b5e40ab81c724f5441\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Aminata Mbengue\AndroidStudioProjects\UISample2\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.1"
+        sha1="d6f00009163407ea6e53c839cd37dae9125df91f">
+        <dex dex="C:\Users\Aminata Mbengue\AndroidStudioProjects\UISample2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_21f3f29f57e7e4470282035700275673f6666aed\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Aminata Mbengue\AndroidStudioProjects\UISample2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.1"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="C:\Users\Aminata Mbengue\AndroidStudioProjects\UISample2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.1.1_c0f971fcf0905b0af6f0c6556eb884c59ef79aaa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Aminata Mbengue\AndroidStudioProjects\UISample2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.1"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="C:\Users\Aminata Mbengue\AndroidStudioProjects\UISample2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.1.1_212d73848d2eb238fbfaa8fb784c6d7d134bc682\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Aminata Mbengue\AndroidStudioProjects\UISample2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.1"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="C:\Users\Aminata Mbengue\AndroidStudioProjects\UISample2\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.1.1_87760af085fa899abdd6fac74b36b77b731b1a6e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Aminata Mbengue\AndroidStudioProjects\UISample2\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.1"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="C:\Users\Aminata Mbengue\AndroidStudioProjects\UISample2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.1.1_40b1efb4342345bb15c561a6da3aafed4b275ba5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Aminata Mbengue\AndroidStudioProjects\UISample2\app\build\intermediates\exploded-aar\com.android.support.constraint\constraint-layout\1.0.0-alpha3\jars\classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.1"
+        sha1="650cf8686cd625acfbdd43f8ab33f6f2f057605f">
+        <dex dex="C:\Users\Aminata Mbengue\AndroidStudioProjects\UISample2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support.constraint-constraint-layout-1.0.0-alpha3_78f963ae4ca90fea85508b5a51bae84696ccf46e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.1"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="C:\Users\Aminata Mbengue\AndroidStudioProjects\UISample2\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.1.1_6ededcc9b39f46fbcdd6efbd1a4d51bb6afd2a15\classes.dex" />
+    </item>
+
+</items>
