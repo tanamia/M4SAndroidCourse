@@ -88,7 +88,6 @@ public class MainActivity extends AppCompatActivity {
                 URL url = new URL("https://raw.githubusercontent.com/tanamia/M4SAndroidCourse/master/Dakar-Ville.png");
                 HttpsURLConnection con = (HttpsURLConnection) url.openConnection();
                 if (con.getResponseCode() != HttpsURLConnection.HTTP_OK) {
-                     //Toast.makeText(getApplicationContext(), "Pas de connexion internet", Toast.LENGTH_SHORT).show();
                     throw new Exception("Failed to connect");
                 }
 
