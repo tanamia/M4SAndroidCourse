@@ -1,8 +1,11 @@
 package com.example.aminatambengue.asynctaskproject;
 
 import android.app.ProgressDialog;
+import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -17,8 +20,10 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import android.util.Log;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import javax.net.ssl.HttpsURLConnection;
+import javax.xml.datatype.Duration;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -64,8 +69,8 @@ public class MainActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
-
-    class MyClass extends AsyncTask<URL, Void, Bitmap> {
+    
+        class MyClass extends AsyncTask<URL, Void, Bitmap> {
 
         @Override
         protected void onPreExecute() {
@@ -83,6 +88,7 @@ public class MainActivity extends AppCompatActivity {
                 URL url = new URL("https://raw.githubusercontent.com/tanamia/M4SAndroidCourse/master/Dakar-Ville.png");
                 HttpsURLConnection con = (HttpsURLConnection) url.openConnection();
                 if (con.getResponseCode() != HttpsURLConnection.HTTP_OK) {
+                     //Toast.makeText(getApplicationContext(), "Pas de connexion internet", Toast.LENGTH_SHORT).show();
                     throw new Exception("Failed to connect");
                 }
 
@@ -100,8 +106,25 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         protected void onPostExecute(Bitmap result) {
+
+            //test de la connection
+
+            ConnectivityManager cn = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+            NetworkInfo nf = cn.getActiveNetworkInfo();
+            if(nf == null || nf.isConnected()==false )
+            {
+                Toast.makeText(getApplicationContext(),
+                        "Sorry, No internet connectivity found", Toast.LENGTH_SHORT)
+                        .show();
+                chargement.dismiss();
+            }
+
+            //fin du test
+
             ImageView image =(ImageView) findViewById(R.id.imageView);
             image.setImageBitmap(result);
+            chargement.dismiss();
+
         }
     }
 }
