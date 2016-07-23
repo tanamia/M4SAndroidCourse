@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aminatambengue.ndeyeaminatambenguemidterm.MainActivityFragment"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:text="Conversion dollars into Comorian francs"
+        android:layout_width="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:layout_marginTop="@dimen/item_touch_helper_max_drag_scroll_per_frame"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAlignment="center"
+        android:textStyle="normal|bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="189dp"
+        android:layout_marginTop="@android:dimen/dialog_min_width_minor"
+        android:translationY="@android:dimen/notification_large_icon_height"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:text="Dollars"
+            android:layout_width="87dp"
+            android:layout_height="44dp"
+            android:id="@+id/textView"
+            android:background="@color/colorAccent"
+            android:layout_centerInParent="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:textAlignment="center" />
+
+        <Button
+            android:text="Convert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button"
+            android:background="@android:color/holo_purple"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+             />
+
+        <TextView
+            android:text="FCFA"
+            android:layout_width="87dp"
+            android:layout_height="42dp"
+            android:id="@+id/textView2"
+            android:background="@color/colorAccent"
+            android:layout_centerInParent="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:textAlignment="center" />
+        <EditText
+            android:layout_width="136dp"
+            android:layout_height="44dp"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/editText"
+            android:layout_centerHorizontal="true"
+            />
+
+        <EditText
+            android:layout_width="136dp"
+            android:layout_height="42dp"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/editText2"
+            android:layout_centerInParent="true"
+            android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>
