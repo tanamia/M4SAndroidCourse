@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "909595851952",
+    "firebase_url": "https://fir-studen.firebaseio.com",
+    "project_id": "fir-studen",
+    "storage_bucket": "fir-studen.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:909595851952:android:f98c6292e3e419f1",
+        "android_client_info": {
+          "package_name": "com.example.aminatambengue.firebasestudent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "909595851952-uqjegat3atk0r0n5kq9foi2dua7vkge7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0AnWmp6OC7Vzq3n_K61fKvz_-KkENcxo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:909595851952:android:37502d7ab5d2665b",
+        "android_client_info": {
+          "package_name": "com.example.aminatambengue.firebasestuden"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "909595851952-uqjegat3atk0r0n5kq9foi2dua7vkge7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0AnWmp6OC7Vzq3n_K61fKvz_-KkENcxo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
